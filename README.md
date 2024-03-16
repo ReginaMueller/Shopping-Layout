@@ -2,7 +2,7 @@
 
 ## Aufgabe
 
-Deine Aufgabe ist es, das nachfolgende Design möglichst originalgetreu mit HTML und CSS zu rekonstruieren. Benutze dafür semantisches HTML. Diese Aufgabe vereint viele der Konzepte, die du bis hierhin gelernt hast.
+Die Aufgabe war es, das nachfolgende Design möglichst originalgetreu mit HTML und CSS zu rekonstruieren. Dafür sollte semantisches HTML benutzt werden.
 
 <img src="https://user-images.githubusercontent.com/16404104/124711411-54298a00-defe-11eb-8b5b-bb99abdaad21.png" alt="Screenshot Task" style="max-width: 800px;" />
 
