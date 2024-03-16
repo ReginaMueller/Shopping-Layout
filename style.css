@@ -1,0 +1,162 @@
+:root {
+  --background1: #f5f5f5;
+  --background2: #fff;
+  --font-color: #7e7e7e;
+}
+
+* *::after *::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Quicksand";
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+body {
+  background-color: var(--background1);
+  color: var(--font-color);
+  margin: auto;
+  width: 96%;
+  padding-top: 2%;
+}
+
+main {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr, 1fr, 1fr;
+  grid-gap: 2% 2%;
+}
+
+h2 {
+  color: black;
+}
+
+section {
+  background-color: var(--background2);
+  width: 100%;
+  min-width: 20rem;
+  border-radius: 1.5rem;
+}
+
+img {
+  width: 100%;
+  border-radius: 1.5rem 1.5rem 0 0;
+  mask-image: linear-gradient(180deg, black 50%, transparent 100%);
+}
+
+.image-container {
+  position: relative;
+}
+
+.message {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.8rem;
+  background-color: var(--background2);
+  opacity: 0.5;
+  border-radius: 0.2rem;
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+  margin: 0;
+  font-size: 0.8rem;
+  color: black;
+}
+
+.asis {
+  grid-column: 1;
+}
+
+.adidas {
+  grid-column: 2;
+}
+
+.new-balance {
+  grid-column: 3;
+}
+
+.card-description {
+  margin: 1rem;
+}
+
+.description-text {
+  height: 8rem;
+}
+
+.order-box {
+  padding: 1rem;
+  background-color: var(--background1);
+  border-radius: 0.5rem;
+  bottom: 0;
+}
+
+.price {
+  background-color: var(--background2);
+  color: black;
+  text-align: center;
+}
+
+.size-quantity {
+  display: grid;
+  grid-template-columns: 1fr, 1fr;
+}
+
+.size {
+  grid-column: 1;
+}
+
+.quantity {
+  grid-column: 2;
+}
+
+select {
+  border: none;
+  color: var(--font-color);
+}
+
+.color {
+  display: flex;
+  align-items: center;
+}
+
+[class^="color-"] {
+  width: 6%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  margin: 2%;
+}
+
+.color-blue {
+  background-color: blue;
+}
+.color-red {
+  background-color: red;
+}
+.color-black {
+  background-color: black;
+}
+.color-green-black {
+  background-image: linear-gradient(90deg, olive 50%, black 50%);
+}
+.color-blue-black {
+  background-image: linear-gradient(90deg, blue 50%, black 50%);
+}
+.color-pink-black {
+  background-image: linear-gradient(90deg, hotpink 50%, black 50%);
+}
+.color-red-white {
+  background-image: linear-gradient(90deg, red 50%, white 50%);
+}
+.color-black-white {
+  background-image: linear-gradient(90deg, black 50%, white 50%);
+}
+
+button {
+  width: 100%;
+  background-color: #485fb9;
+  border-radius: 0.2rem;
+  color: var(--background2);
+  border: none;
+  padding: 3%;
+}
